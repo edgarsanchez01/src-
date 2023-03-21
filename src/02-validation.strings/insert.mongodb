@@ -1,0 +1,8 @@
+use ('validation_5A')
+
+db.users.insertOne(
+    {
+        last_name: 'Molina',
+        email: 'hmolina@hotmail.com'
+    }
+)
